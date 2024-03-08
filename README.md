@@ -1,7 +1,10 @@
 # MMRI-SE-ResNet
-vit_seg_modeling.py -> implementation of 3D Conv.
-squeeze_and_excitation_model.py -> implementation of MMRI-SE-ResNet.
-test_correlated_research.py -> implentation of the experiments for the 3D Conv.
-test_squeeze_excitation_not_segmented_binary.py -> implentation of the experiments for the SE-ResNet and MMRI-SE-ResNet-S.
-test_squeeze_excitation_segmented_binary.py -> implentation of the experiments for the MMRI-SE-ResNet-Z and MMRI-SE-ResNet.
-evaluate_predictions_binary.py -> here you can find how the final prediction is computed.
+The MMRI-SE-ResNet thesis investigates the application of deep learning techniques, particularly leveraging a residual neural network, to predict the Kellgren-Lawrence grade (KLG) in osteoarthritis patients utilizing magnetic resonance images (MRI). The proposed model integrates MRI slice numbers and segmented images, offering a unique approach by processing each image slice individually to enhance focus and interpretability. Empirical findings demonstrate promising performance in KLG prediction, highlighting the model's potential for accurate osteoarthritis diagnosis. Additionally, the thesis incorporates residual blocks and the Squeeze and Excitation network to further enhance its effectiveness.
+
+# Contact Information
+For inquiries or further details about the MMRI-SE-ResNet thesis, please contact:
+
+[Daniele Manfredonia]
+[d.manfre10@gmail.com]
+
+Here you can find detailed information about the paper submission https://www.scitepress.org/PublicationsDetail.aspx?ID=7AQt8vAD4jM=&t=1
